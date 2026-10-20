@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bleu-nuit: #172554;
+    --color-orange-vif: #F97316;
+    --color-gris-clair: #F3F4F6;
+    --color-gris-texte: #6B7280;
+    --color-vert-succes: #10B981;
+    --color-rouge-erreur: #EF4444;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

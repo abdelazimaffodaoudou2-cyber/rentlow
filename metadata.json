@@ -1,0 +1,6 @@
+{
+  "name": "RentFlow — Gestion Locative Intelligente",
+  "description": "Plateforme SaaS de gestion locative au Bénin et en Afrique francophone. Centralisation des propriétés, logements, locataires, baux, échéances et paiements sécurisés.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
